@@ -1,0 +1,1511 @@
+fileFormatVersion: 2
+guid: c3b3534a0eef42840b40bcff202b0b00
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Elite Orc_Frame_0
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 127
+      width: 28
+      height: 26
+    spriteID: b82d277c066a1b743a8cd71e9761107b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 127}
+  - name: Elite Orc_Frame_21
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 127
+      width: 28
+      height: 26
+    spriteID: 8b593efb6da2d1c409e24de7a9c448f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 127}
+  - name: Elite Orc_Frame_32
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 127
+      width: 28
+      height: 26
+    spriteID: 70d8dc55835da8a438fce34113a79691
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 127}
+  - name: Elite Orc_Frame_33
+    originalName: 
+    pivot: {x: 0.49999997, y: -1.111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 212
+      width: 20
+      height: 36
+    spriteID: 0a0298f39979dd34f98b58edb4a79e91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 212}
+  - name: Elite Orc_Frame_34
+    originalName: 
+    pivot: {x: 0.59090906, y: -0.9302325}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 127
+      width: 22
+      height: 43
+    spriteID: 7acd303c03b9dbc4b8e11807236439d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 127}
+  - name: Elite Orc_Frame_35
+    originalName: 
+    pivot: {x: 0.64285713, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 4
+      width: 28
+      height: 40
+    spriteID: 384215f97f7505b4fa09e5f7250198f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 478, y: 4}
+  - name: Elite Orc_Frame_36
+    originalName: 
+    pivot: {x: 0.13157898, y: -0.88888896}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 38
+      height: 45
+    spriteID: e042b92c2bd6e8f4880a6199122bf63d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Elite Orc_Frame_37
+    originalName: 
+    pivot: {x: 0.12820517, y: -0.9069767}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 4
+      width: 39
+      height: 43
+    spriteID: 1b017fd1bbf99aa4eaef6e088de8cbe8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 4}
+  - name: Elite Orc_Frame_38
+    originalName: 
+    pivot: {x: 0.12820517, y: -1.8571428}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 270
+      y: 89
+      width: 39
+      height: 21
+    spriteID: e45e5f058ce961f4db8f98a521560003
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 270, y: 89}
+  - name: Elite Orc_Frame_39
+    originalName: 
+    pivot: {x: 0.24999997, y: -1.6666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 178
+      width: 28
+      height: 24
+    spriteID: 38cad2f774ada6b48b35d73088331c7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 178}
+  - name: Elite Orc_Frame_40
+    originalName: 
+    pivot: {x: 0.24999997, y: -1.6666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 178
+      width: 28
+      height: 24
+    spriteID: ccf66012023939d4395eda9ddc6b1d89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 178}
+  - name: Elite Orc_Frame_41
+    originalName: 
+    pivot: {x: 0.34482756, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 127
+      width: 29
+      height: 26
+    spriteID: d772dc19273470e428a559699abc8806
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 127}
+  - name: Elite Orc_Frame_45
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 325
+      y: 127
+      width: 28
+      height: 26
+    spriteID: 49cb2e12d4bc9a24382be3a3e4bdef14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 127}
+  - name: Elite Orc_Frame_46
+    originalName: 
+    pivot: {x: 0.16666667, y: -1.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 89
+      width: 36
+      height: 28
+    spriteID: 58a9b8e4d699b0844aa4f49c07ecf2b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 89}
+  - name: Elite Orc_Frame_47
+    originalName: 
+    pivot: {x: 0.20000002, y: -1.6666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 57
+      width: 45
+      height: 24
+    spriteID: 38708908cc6efc44291c4b2cd39e57ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 57}
+  - name: Elite Orc_Frame_48
+    originalName: 
+    pivot: {x: 0.11428569, y: -2.222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 178
+      width: 35
+      height: 18
+    spriteID: 45b4bb88828489442ab2a49a1663ae23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 178}
+  - name: Elite Orc_Frame_1
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 127
+      width: 28
+      height: 26
+    spriteID: acc745329049d5946a800e9546ef5167
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 127}
+  - name: Elite Orc_Frame_2
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 89
+      width: 28
+      height: 27
+    spriteID: 717fe8f6998ae0240b68c59b4a6846f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 89}
+  - name: Elite Orc_Frame_3
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 390
+      y: 89
+      width: 28
+      height: 27
+    spriteID: 0d26827bf732679468150782b061f21f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 390, y: 89}
+  - name: Elite Orc_Frame_4
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 397
+      y: 127
+      width: 28
+      height: 26
+    spriteID: 86873c154158b564fba9b05e0540b2fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 397, y: 127}
+  - name: Elite Orc_Frame_5
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 433
+      y: 127
+      width: 28
+      height: 26
+    spriteID: 251c004b715967d4999265f75e9d00e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 433, y: 127}
+  - name: Elite Orc_Frame_6
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 469
+      y: 127
+      width: 28
+      height: 26
+    spriteID: ad27f36bd6c836d40a3180276cea1f64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 469, y: 127}
+  - name: Elite Orc_Frame_7
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 426
+      y: 89
+      width: 28
+      height: 27
+    spriteID: b1adf3d9c449d9640a0266f5779f8647
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 426, y: 89}
+  - name: Elite Orc_Frame_8
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 178
+      width: 28
+      height: 26
+    spriteID: 79d985624ea599745b01e25e5bcac83d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 178}
+  - name: Elite Orc_Frame_9
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 178
+      width: 28
+      height: 25
+    spriteID: d831933ef6e98754a9fc6a9cce2a428e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 178}
+  - name: Elite Orc_Frame_10
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 178
+      width: 28
+      height: 26
+    spriteID: 3a1f047245782b34fa569a1b7aae5ca0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 178}
+  - name: Elite Orc_Frame_11
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 462
+      y: 89
+      width: 28
+      height: 27
+    spriteID: 9c75b0364f5418e4eb62d8d40a566345
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 462, y: 89}
+  - name: Elite Orc_Frame_12
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 178
+      width: 28
+      height: 26
+    spriteID: 7e5bcd4c6f5780741a38e88a6f429e4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 178}
+  - name: Elite Orc_Frame_13
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 178
+      width: 28
+      height: 25
+    spriteID: 109d29a2261685e42b971fa5391687a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 178}
+  - name: Elite Orc_Frame_14
+    originalName: 
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 178
+      width: 28
+      height: 26
+    spriteID: 17c98f9ff974d944d940e0d2c8fe1676
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 178}
+  - name: Elite Orc_Frame_15
+    originalName: 
+    pivot: {x: 0.2758621, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 317
+      y: 89
+      width: 29
+      height: 27
+    spriteID: 2638b9851dab5154c9aadd68874b6000
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 317, y: 89}
+  - name: Elite Orc_Frame_16
+    originalName: 
+    pivot: {x: 0.6666667, y: -1.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 127
+      width: 27
+      height: 32
+    spriteID: 191f42647a2d16a4a9359c3ea4899975
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 127}
+  - name: Elite Orc_Frame_17
+    originalName: 
+    pivot: {x: 0.24390243, y: -1.1666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 4
+      width: 41
+      height: 30
+    spriteID: eed044a2b0098dd419ec32fe94217425
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 4}
+  - name: Elite Orc_Frame_18
+    originalName: 
+    pivot: {x: 0.27777776, y: -1.1666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 89
+      width: 36
+      height: 30
+    spriteID: 638d45c59fa258e4d8294ffc050fd557
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 89}
+  - name: Elite Orc_Frame_19
+    originalName: 
+    pivot: {x: 0.47619045, y: -1.3214285}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 212
+      width: 21
+      height: 28
+    spriteID: c1d09840a5a0c9e419266f633dfb24c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 212}
+  - name: Elite Orc_Frame_20
+    originalName: 
+    pivot: {x: 0.49999997, y: -1.2758621}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 212
+      width: 20
+      height: 29
+    spriteID: 5e9240881e940494b91f5c9fb6c45ad9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 212}
+  - name: Elite Orc_Frame_22
+    originalName: 
+    pivot: {x: 0.20512825, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 89
+      width: 39
+      height: 27
+    spriteID: 9b07b656138637845a4276335e36f1b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 89}
+  - name: Elite Orc_Frame_23
+    originalName: 
+    pivot: {x: 0.5192307, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 4
+      width: 52
+      height: 27
+    spriteID: c9660ccce6cff5d4890d062608421906
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 4}
+  - name: Elite Orc_Frame_24
+    originalName: 
+    pivot: {x: 0.59999996, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 4
+      width: 45
+      height: 27
+    spriteID: 0b14fef0a7775524dbd0740ea8000fa6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 4}
+  - name: Elite Orc_Frame_25
+    originalName: 
+    pivot: {x: 0.37777776, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 319
+      y: 4
+      width: 45
+      height: 27
+    spriteID: 1d0dce31d69f60e43aa9187ce8b39bbb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 319, y: 4}
+  - name: Elite Orc_Frame_26
+    originalName: 
+    pivot: {x: 0.20512825, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 89
+      width: 39
+      height: 27
+    spriteID: 262b85cbda1e98347b5e890d02f77f5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 89}
+  - name: Elite Orc_Frame_27
+    originalName: 
+    pivot: {x: 0.5192307, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 4
+      width: 52
+      height: 27
+    spriteID: ebf1bf3bcc4c9c646b10e632a889faa8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 4}
+  - name: Elite Orc_Frame_28
+    originalName: 
+    pivot: {x: 0.59999996, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 372
+      y: 4
+      width: 45
+      height: 27
+    spriteID: 1e7b09b0f3f90124cb4c96807347de32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 372, y: 4}
+  - name: Elite Orc_Frame_29
+    originalName: 
+    pivot: {x: 0.37777776, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 4
+      width: 45
+      height: 27
+    spriteID: c72dba7424e4ce64f900640afc259927
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 4}
+  - name: Elite Orc_Frame_30
+    originalName: 
+    pivot: {x: 0.20512825, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 89
+      width: 39
+      height: 27
+    spriteID: ff5e085513e059f4d84939cd4589791d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 89}
+  - name: Elite Orc_Frame_31
+    originalName: 
+    pivot: {x: 0.24137928, y: -1.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 233
+      y: 89
+      width: 29
+      height: 30
+    spriteID: 7fb0f5f6817b83d45a3eeedfd8bcd6f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 233, y: 89}
+  - name: Elite Orc_Frame_42
+    originalName: 
+    pivot: {x: 0.34482756, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 127
+      width: 29
+      height: 26
+    spriteID: 0188aedb6cc21cd49a608f5d2c8522c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 127}
+  - name: Elite Orc_Frame_43
+    originalName: 
+    pivot: {x: 0.34482756, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 127
+      width: 29
+      height: 26
+    spriteID: 0c50f0b37ba0de542b48c610a3befd33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 127}
+  - name: Elite Orc_Frame_44
+    originalName: 
+    pivot: {x: 0.34482756, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 127
+      width: 29
+      height: 26
+    spriteID: b7e7916b7d5597c4ca19206626e0ea68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 127}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1095514159
+    name: Elite Orc
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Elite Orc_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: b82d277c066a1b743a8cd71e9761107b
+    - name: Elite Orc_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: 8b593efb6da2d1c409e24de7a9c448f8
+    - name: Elite Orc_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: 70d8dc55835da8a438fce34113a79691
+    - name: Elite Orc_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 40
+        y: 40
+        width: 20
+        height: 36
+      spriteId: 0a0298f39979dd34f98b58edb4a79e91
+    - name: Elite Orc_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 37
+        y: 40
+        width: 22
+        height: 43
+      spriteId: 7acd303c03b9dbc4b8e11807236439d8
+    - name: Elite Orc_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 32
+        y: 40
+        width: 28
+        height: 40
+      spriteId: 384215f97f7505b4fa09e5f7250198f1
+    - name: Elite Orc_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 45
+        y: 40
+        width: 38
+        height: 45
+      spriteId: e042b92c2bd6e8f4880a6199122bf63d
+    - name: Elite Orc_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 45
+        y: 39
+        width: 39
+        height: 43
+      spriteId: 1b017fd1bbf99aa4eaef6e088de8cbe8
+    - name: Elite Orc_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 45
+        y: 39
+        width: 39
+        height: 21
+      spriteId: e45e5f058ce961f4db8f98a521560003
+    - name: Elite Orc_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 43
+        y: 40
+        width: 28
+        height: 24
+      spriteId: 38cad2f774ada6b48b35d73088331c7e
+    - name: Elite Orc_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 43
+        y: 40
+        width: 28
+        height: 24
+      spriteId: ccf66012023939d4395eda9ddc6b1d89
+    - name: Elite Orc_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 40
+        y: 40
+        width: 29
+        height: 26
+      spriteId: d772dc19273470e428a559699abc8806
+    - name: Elite Orc_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: 49cb2e12d4bc9a24382be3a3e4bdef14
+    - name: Elite Orc_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 44
+        y: 40
+        width: 36
+        height: 28
+      spriteId: 58a9b8e4d699b0844aa4f49c07ecf2b1
+    - name: Elite Orc_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 41
+        y: 40
+        width: 45
+        height: 24
+      spriteId: 38708908cc6efc44291c4b2cd39e57ff
+    - name: Elite Orc_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 46
+        y: 40
+        width: 35
+        height: 18
+      spriteId: 45b4bb88828489442ab2a49a1663ae23
+    - name: Elite Orc_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: acc745329049d5946a800e9546ef5167
+    - name: Elite Orc_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 27
+      spriteId: 717fe8f6998ae0240b68c59b4a6846f9
+    - name: Elite Orc_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 27
+      spriteId: 0d26827bf732679468150782b061f21f
+    - name: Elite Orc_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: 86873c154158b564fba9b05e0540b2fd
+    - name: Elite Orc_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: 251c004b715967d4999265f75e9d00e0
+    - name: Elite Orc_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: ad27f36bd6c836d40a3180276cea1f64
+    - name: Elite Orc_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 27
+      spriteId: b1adf3d9c449d9640a0266f5779f8647
+    - name: Elite Orc_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: 79d985624ea599745b01e25e5bcac83d
+    - name: Elite Orc_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 25
+      spriteId: d831933ef6e98754a9fc6a9cce2a428e
+    - name: Elite Orc_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: 3a1f047245782b34fa569a1b7aae5ca0
+    - name: Elite Orc_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 27
+      spriteId: 9c75b0364f5418e4eb62d8d40a566345
+    - name: Elite Orc_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: 7e5bcd4c6f5780741a38e88a6f429e4e
+    - name: Elite Orc_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 25
+      spriteId: 109d29a2261685e42b971fa5391687a3
+    - name: Elite Orc_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      spriteId: 17c98f9ff974d944d940e0d2c8fe1676
+    - name: Elite Orc_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 42
+        y: 40
+        width: 29
+        height: 27
+      spriteId: 2638b9851dab5154c9aadd68874b6000
+    - name: Elite Orc_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 32
+        y: 40
+        width: 27
+        height: 32
+      spriteId: 191f42647a2d16a4a9359c3ea4899975
+    - name: Elite Orc_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 40
+        y: 35
+        width: 41
+        height: 30
+      spriteId: eed044a2b0098dd419ec32fe94217425
+    - name: Elite Orc_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 40
+        y: 35
+        width: 36
+        height: 30
+      spriteId: 638d45c59fa258e4d8294ffc050fd557
+    - name: Elite Orc_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 40
+        y: 37
+        width: 21
+        height: 28
+      spriteId: c1d09840a5a0c9e419266f633dfb24c4
+    - name: Elite Orc_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 40
+        y: 37
+        width: 20
+        height: 29
+      spriteId: 5e9240881e940494b91f5c9fb6c45ad9
+    - name: Elite Orc_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 42
+        y: 40
+        width: 39
+        height: 27
+      spriteId: 9b07b656138637845a4276335e36f1b3
+    - name: Elite Orc_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 23
+        y: 40
+        width: 52
+        height: 27
+      spriteId: c9660ccce6cff5d4890d062608421906
+    - name: Elite Orc_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 23
+        y: 40
+        width: 45
+        height: 27
+      spriteId: 0b14fef0a7775524dbd0740ea8000fa6
+    - name: Elite Orc_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 33
+        y: 40
+        width: 45
+        height: 27
+      spriteId: 1d0dce31d69f60e43aa9187ce8b39bbb
+    - name: Elite Orc_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 42
+        y: 40
+        width: 39
+        height: 27
+      spriteId: 262b85cbda1e98347b5e890d02f77f5a
+    - name: Elite Orc_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 23
+        y: 40
+        width: 52
+        height: 27
+      spriteId: ebf1bf3bcc4c9c646b10e632a889faa8
+    - name: Elite Orc_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 23
+        y: 40
+        width: 45
+        height: 27
+      spriteId: 1e7b09b0f3f90124cb4c96807347de32
+    - name: Elite Orc_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 33
+        y: 40
+        width: 45
+        height: 27
+      spriteId: c72dba7424e4ce64f900640afc259927
+    - name: Elite Orc_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 42
+        y: 40
+        width: 39
+        height: 27
+      spriteId: ff5e085513e059f4d84939cd4589791d
+    - name: Elite Orc_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 43
+        y: 36
+        width: 29
+        height: 30
+      spriteId: 7fb0f5f6817b83d45a3eeedfd8bcd6f2
+    - name: Elite Orc_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 40
+        y: 40
+        width: 29
+        height: 26
+      spriteId: 0188aedb6cc21cd49a608f5d2c8522c1
+    - name: Elite Orc_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 40
+        y: 40
+        width: 29
+        height: 26
+      spriteId: 0c50f0b37ba0de542b48c610a3befd33
+    - name: Elite Orc_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 40
+        y: 40
+        width: 29
+        height: 26
+      spriteId: b7e7916b7d5597c4ca19206626e0ea68
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 100, y: 100}
