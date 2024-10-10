@@ -198,11 +198,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9211c138bd4283459b730f90116e8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debug: 1
   enemyCollisionLayer:
     serializedVersion: 2
     m_Bits: 128
   attackDamage: 100
   attackInterval: 1
+  attackRange: 10
+  enemyInRange: 0
   objectPool: {fileID: 1505158203951378790}
   attackPoint: {fileID: 8712084705537999702}
 --- !u!114 &1505158203951378790

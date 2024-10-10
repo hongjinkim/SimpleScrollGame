@@ -24,13 +24,10 @@ public class Monster : MonoBehaviour
     private Rigidbody2D rigidbody;
     private SpriteRenderer spriteRenderer;
 
-    public Button monsterButton;
-
     private void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        monsterButton.onClick.AddListener(OnMonsterClick);
 
         healthBar = healthBarObject.GetComponent<Slider>();
     }
@@ -79,7 +76,7 @@ public class Monster : MonoBehaviour
         UpdateHealthBar();
     }
 
-    private void OnMonsterClick()
+    public void OnMonsterClicked()
     {
         EventManager.TriggerEvent(EventType.MonsterSelected, new Dictionary<string, object>() {
             { "name", _name },
