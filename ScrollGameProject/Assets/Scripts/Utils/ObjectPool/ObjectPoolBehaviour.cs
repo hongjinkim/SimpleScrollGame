@@ -4,6 +4,8 @@ using UnityEngine;
 public class ObjectPoolBehaviour : MonoBehaviour
 {
 
+    public Transform parentTransform;
+
     public ObjectPoolData data;
 
     private List<GameObject> pooledObjects;
@@ -19,7 +21,7 @@ public class ObjectPoolBehaviour : MonoBehaviour
 
         for (int i = 0; i < data.amountToPool; i++)
         {
-            GameObject obj = (GameObject)Instantiate(data.objectToPool);
+            GameObject obj = (GameObject)Instantiate(data.objectToPool, parentTransform);
             obj.SetActive(false);
             pooledObjects.Add(obj);
         }
@@ -38,7 +40,7 @@ public class ObjectPoolBehaviour : MonoBehaviour
 
         if (data.shouldExpand)
         {
-            GameObject obj = (GameObject)Instantiate(data.objectToPool);
+            GameObject obj = (GameObject)Instantiate(data.objectToPool, parentTransform);
             obj.SetActive(false);
             pooledObjects.Add(obj);
             return obj;
