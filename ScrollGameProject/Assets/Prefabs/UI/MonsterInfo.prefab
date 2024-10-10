@@ -671,6 +671,7 @@ MonoBehaviour:
   grade: {fileID: 7294076330467396398}
   speed: {fileID: 5139882499564420551}
   health: {fileID: 1371790444330775576}
+  profile: {fileID: 3675001557770131965}
 --- !u!1 &8309133388228845905
 GameObject:
   m_ObjectHideFlags: 0

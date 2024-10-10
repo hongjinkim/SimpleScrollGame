@@ -8,10 +8,13 @@ public class Monster : MonoBehaviour
     public SampleMonsterData monsterData;
 
     [Header("Info")]
+    [SerializeField] private int _idx;
     [SerializeField] private string _name;
     [SerializeField] private string _grade;
     [SerializeField] private float _speed;
     [SerializeField] private float _health;
+
+    
 
     [Header("Status")]
     public float currentHealth;
@@ -64,6 +67,7 @@ public class Monster : MonoBehaviour
 
     public void Setup(int idx)
     {
+        _idx = idx;
         var entry = monsterData.entries[idx];
         _name = entry.Name;
         _grade = entry.Grade;
@@ -73,12 +77,15 @@ public class Monster : MonoBehaviour
         isDead = false;
         currentHealth = _health;
 
+        spriteRenderer.sprite = GameDataManager.instance.MonsterSprites[idx];
+
         UpdateHealthBar();
     }
 
     public void OnMonsterClicked()
     {
         EventManager.TriggerEvent(EventType.MonsterSelected, new Dictionary<string, object>() {
+            { "idx", _idx },
             { "name", _name },
             { "grade", _grade },
             { "speed", _speed },

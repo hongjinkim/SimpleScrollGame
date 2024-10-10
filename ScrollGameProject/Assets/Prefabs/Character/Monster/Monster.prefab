@@ -142,10 +142,15 @@ MonoBehaviour:
   _grade: 
   _speed: 0
   _health: 0
+  sprites:
+  - {fileID: 21300000, guid: bdfc7c5ac812d2f4e92058de3264fb58, type: 2}
+  - {fileID: 21300000, guid: ff87aa25019919841a363797a2d32a13, type: 2}
+  - {fileID: 21300000, guid: efd58ff28e0ceb64ea0d431e07f48322, type: 2}
+  - {fileID: 21300000, guid: 5454b998ffe53264d9ad404466abc4b9, type: 2}
+  - {fileID: 21300000, guid: df533825113d14148b7625fe3f44d57f, type: 2}
   currentHealth: 0
   isDead: 0
   healthBarObject: {fileID: 1304225926983710546}
-  monsterButton: {fileID: 0}
 --- !u!212 &4267348146466035599
 SpriteRenderer:
   m_ObjectHideFlags: 0

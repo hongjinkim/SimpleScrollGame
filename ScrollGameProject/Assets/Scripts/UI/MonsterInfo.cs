@@ -2,16 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MonsterInfo : MonoBehaviour
 {
+    [Header("Text")]
     public TextMeshProUGUI name;
     public TextMeshProUGUI grade;
     public TextMeshProUGUI speed;
     public TextMeshProUGUI health;
 
+    [Header("Image")]
+    public Image profile;
+
     public void UpdateMonsterInfo(Dictionary<string, object> message)
     {
+        if (message.ContainsKey("idx"))
+            profile.sprite = GameDataManager.instance.MonsterSprites[(int)message["idx"]];
+        else
+            profile.sprite = null;
         if (message.ContainsKey("name"))
             name.text = "¿Ã∏ß : " + message["name"];
         else
