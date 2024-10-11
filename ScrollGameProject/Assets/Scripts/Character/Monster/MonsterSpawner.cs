@@ -10,8 +10,6 @@ public class MonsterSpawner : MonoBehaviour
     private GameObject monster;
     [SerializeField] private int monsterIdx;
     private int numOfMonsters;
-    private bool isMonsterAlive;
-
     private void Awake()
     {
         monsterIdx = 0;
@@ -35,8 +33,6 @@ public class MonsterSpawner : MonoBehaviour
 
     private void Spawn(Dictionary<string, object> message = null)
     {
-        isMonsterAlive = true;
-   
         monster = objectPool.GetPooledObject();
         monster.transform.position = this.transform.position;
         monster.GetComponent<Monster>().Setup(monsterIdx);

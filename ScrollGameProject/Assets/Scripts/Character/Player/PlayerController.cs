@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
 
     private void DetectEnemies()
     {
-        Collider2D hitColliders = Physics2D.OverlapCircle(new Vector2(transform.position.x, transform.position.y + 3f), attackRange, enemyCollisionLayer);
+        Collider2D hitColliders = Physics2D.OverlapCircle(new Vector2(transform.position.x + attackRange / 2, transform.position.y + 3f), attackRange / 2, enemyCollisionLayer);
         if (hitColliders != null)
             enemyInRange = true;
         else
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         if(debug)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(transform.position + new Vector3(0, 3f, 0), attackRange);
+            Gizmos.DrawWireSphere(transform.position + new Vector3(0+ attackRange / 2, 3f, 0), attackRange/2);
         }
     }
 

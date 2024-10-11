@@ -6,6 +6,4 @@ public class GameDataManager : MonoSingleton<GameDataManager>
 { 
     public Sprite[] MonsterSprites;
 
-
-
 }

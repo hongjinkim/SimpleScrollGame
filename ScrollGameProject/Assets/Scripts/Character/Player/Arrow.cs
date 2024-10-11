@@ -13,11 +13,11 @@ public class Arrow : MonoBehaviour
     private bool isHit = false;
 
     private Vector2 direction = new Vector2(1, 0);
-    private Rigidbody2D rigidbody;
+    private Rigidbody2D rb;
 
     private void Awake()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnEnable()
@@ -31,8 +31,8 @@ public class Arrow : MonoBehaviour
         {
             return;
         }
-        if(rigidbody != null)
-            rigidbody.velocity = direction * arrowSpeed;
+        if(rb != null)
+            rb.velocity = direction * arrowSpeed;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

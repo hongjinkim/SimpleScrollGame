@@ -6,6 +6,7 @@ using static Utils;
 public class Monster : MonoBehaviour
 {
     public SampleMonsterData monsterData;
+    public LayerMask levelCollisionLayer;
 
     [Header("Info")]
     [SerializeField] private int _idx;
@@ -24,12 +25,12 @@ public class Monster : MonoBehaviour
     public GameObject healthBarObject;
 
     private Vector2 direction = new Vector2(-1, 0);
-    private Rigidbody2D rigidbody;
+    private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         healthBar = healthBarObject.GetComponent<Slider>();
@@ -42,12 +43,20 @@ public class Monster : MonoBehaviour
         {
             return;
         }
-        if (rigidbody != null)
-            rigidbody.velocity = direction *_speed;
+        if (rb != null)
+            rb.velocity = direction *_speed;
         healthBarObject.transform.position = Camera.main.WorldToScreenPoint(transform.position + new Vector3(0, 5.5f, 0));
     }
 
-    public void TakeDamage(float damage)
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (IsLayerMatched(levelCollisionLayer.value, collision.gameObject.layer))
+        {
+            Die();
+        }
+    }
+
+        public void TakeDamage(float damage)
     {
         currentHealth -= damage;
         UpdateHealthBar();

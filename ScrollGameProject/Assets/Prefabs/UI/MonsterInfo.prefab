@@ -92,8 +92,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -301,8 +301,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -435,8 +435,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -667,10 +667,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d93f5051af58a84e9a7550db1cfa016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: {fileID: 2401326790716050740}
-  grade: {fileID: 7294076330467396398}
-  speed: {fileID: 5139882499564420551}
-  health: {fileID: 1371790444330775576}
+  nameText: {fileID: 2401326790716050740}
+  gradeText: {fileID: 7294076330467396398}
+  speedText: {fileID: 5139882499564420551}
+  healthText: {fileID: 1371790444330775576}
   profile: {fileID: 3675001557770131965}
 --- !u!1 &8309133388228845905
 GameObject:
@@ -764,8 +764,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

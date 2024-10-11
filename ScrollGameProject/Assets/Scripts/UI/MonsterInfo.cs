@@ -7,10 +7,10 @@ using UnityEngine.UI;
 public class MonsterInfo : MonoBehaviour
 {
     [Header("Text")]
-    public TextMeshProUGUI name;
-    public TextMeshProUGUI grade;
-    public TextMeshProUGUI speed;
-    public TextMeshProUGUI health;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI gradeText;
+    public TextMeshProUGUI speedText;
+    public TextMeshProUGUI healthText;
 
     [Header("Image")]
     public Image profile;
@@ -22,21 +22,21 @@ public class MonsterInfo : MonoBehaviour
         else
             profile.sprite = null;
         if (message.ContainsKey("name"))
-            name.text = "이름 : " + message["name"];
+            nameText.text = "이름 : " + message["name"];
         else
-            name.text = "이름 : ";
+            nameText.text = "이름 : ";
         if (message.ContainsKey("grade"))
-            grade.text = "등급 : " + message["grade"];
+            gradeText.text = "등급 : " + message["grade"];
         else
-            grade.text = "등급 : ";
+            gradeText.text = "등급 : ";
         if (message.ContainsKey("speed"))
-            speed.text = "속도 : " + message["speed"].ToString();
+            speedText.text = "속도 : " + message["speed"].ToString();
         else
-            speed.text = "속도 : ";
+            speedText.text = "속도 : ";
         if (message.ContainsKey("health"))
-            health.text = "체력 : " + (string)message["health"].ToString();
+            healthText.text = "체력 : " + (string)message["health"].ToString();
         else
-            health.text = "체력 : ";
+            healthText.text = "체력 : ";
 
         gameObject.SetActive(true);
 
